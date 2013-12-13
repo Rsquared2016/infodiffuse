@@ -95,7 +95,7 @@ public class Tweet {
 		// TODO Auto-generated method stub
 		return hashTags.toString() + "," + urls.toString() + ","
 				+ mentions.toString() + "," + followers + "," + followee + ","
-				+ favourites + "," + status + "," + retweets + "," + isViral;
+				+ favourites + "," + status + "," + isViral;
 	}
 
 }
