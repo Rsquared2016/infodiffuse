@@ -9,6 +9,15 @@ public class Tweet {
 	private Integer mentions;
 	private Integer isViral = 0;
 	private Integer status;
+	private Integer length;
+
+	public Integer getLength() {
+		return length;
+	}
+
+	public void setLength(Integer length) {
+		this.length = length;
+	}
 
 	public Integer getStatus() {
 		return status;
